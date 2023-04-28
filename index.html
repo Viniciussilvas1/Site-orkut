@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Orkut - A rede social de volta!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+      body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            text-align: justify;
+            font-size: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 1px 1px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .banner h1 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .banner p {
+            font-size: 24px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 14px 20px;
+            background-color: #00cc66;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #00994d;
+        }
+
+        #recursos {
+            background-color: #fff;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        #recursos h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 60px;
+        }
+
+        .recursos-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+
+        .recurso {
+            flex-basis: 300px;
+            padding: 30px;
+            background-color: #efefef;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .recurso:hover {
+            background-color: #d6d6d6;
+        }
+
+        .recurso img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .recurso h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .recurso p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 0;
+        }
+</style>
+
+<body>
+  
+
+    <section id="home">
+        <div class="banner">
+            <h1>Bem-vindo(a) de volta ao Orkut!</h1>
+            <p>Uma nova abordagem em redes sociais.</p>
+            <a href="#recursos" class="cta-button">Saiba mais</a>
+        </div>
+    </section>
+
+    <section id="recursos">
+        <p> 
+            O Orkut está de volta! É isso mesmo, a rede social que fez sucesso nos anos 2000 foi relançada e está disponível para os usuários brasileiros desde 2022.</p>
+
+        <p>    A nova versão do Orkut foi criada por um brasileiro e tem o objetivo de trazer de volta a nostalgia da antiga plataforma, além de oferecer recursos mais modernos e atualizados para os usuários. Com um design mais leve e intuitivo, a nova versão do Orkut permite que os usuários se conectem com amigos e compartilhem conteúdos de forma simples e prática.</p>
+
+        <p>    Entre as novidades da plataforma, está a possibilidade de criar grupos para discutir temas específicos, compartilhar fotos e vídeos, e interagir com pessoas que tenham interesses em comum. Além disso, o novo Orkut é totalmente gratuito e está disponível tanto na versão web quanto em aplicativos para Android e iOS.</p>
+
+        <p>    Apesar de ter sido lançado recentemente, o retorno do Orkut já está fazendo sucesso entre os usuários brasileiros, que estão revivendo momentos marcantes de suas vidas e reencontrando amigos antigos na plataforma. Se você também é fã do Orkut, não deixe de experimentar a nova versão da rede social e se conectar com outras pessoas que compartilham dos mesmos interesses que você! </p>
+
+        <h2>Recursos do Orkut</h2>
+        <div class="recursos-container">
+            <div class="recurso">
+                <img src="imagem1.jpg" alt="Comunidades Temáticas">
+                <h3>Comunidades Temáticas</h3>
+                <p>Participe de comunidades sobre os assuntos que mais lhe interessam.</p>
+            </div>
+            <div class="recurso">
+                <img src="imagem2.jpg" alt="Perfil Personalizado">
+                <h3>Perfil Personalizado</h3>
+                <p>Personalize seu perfil com fotos, vídeos e informações sobre você.</p>
+            </div>
+            <div class="recurso">
+                <img src="imagem3.jpg" alt="Sistema de Depoimentos">
+                <h3>Sistema de Depoimentos</h3>
+                <p>Troque depoimentos com seus amigos e compartilhe suas opiniões.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="comunidades">
+        <h2>Comunidades Temáticas</h2>
+        <div class="comunidades-container">
+            <div class="comunidade">
+                <img src="comunidade1.jpg" alt="Comunidade de Tecnologia">
+                <h3>Comunidade de Tecnologia</h3>
+                <p>Converse com outros entusiastas de tecnologia sobre as últimas novidades do setor.</p>
+                <a href="#" class="cta-button">Junte-se</a>
+            </div>
+            <div class="comunidade">
+                <img src="comunidade2.jpg" alt="Comunidade de Fotografia">
+                <h3>Comunidade de Fotografia</h3>
+                <p>Compartilhe suas melhores fotos e inspire-se com o trabalho de outros fotógrafos.</p>
+                <a href="#" class="cta-button">Junte-se</a>
+            </div>
+            </div>
+    </section>
+
+</body>
+
